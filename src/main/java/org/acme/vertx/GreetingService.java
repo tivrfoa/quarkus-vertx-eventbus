@@ -7,7 +7,7 @@ import jakarta.enterprise.context.ApplicationScoped;
 @ApplicationScoped
 public class GreetingService {
 	static int qt = 0;
-	static final SLEEP_MS = 6000;
+	static final int SLEEP_MS = 6000;
 
 	@ConsumeEvent("greeting")
 	public String consume(String name) {
