@@ -29,4 +29,19 @@
 	at java.base/java.lang.Thread.run(Thread.java:1583)
 ```
 
+# Blocking false time
 
+```txt
+AA - 45
+AA - 46
+AA - 47
+AA - 48
+AA - 49
+END - 50
+Time elapsed: 82042
+```
+
+# Blocking true time
+
+```txt
+```
